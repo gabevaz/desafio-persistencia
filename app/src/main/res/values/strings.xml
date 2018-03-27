@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Desafio Persistencia</string>
+    <string name="usuario">Usuario:</string>
+    <string name="senha">Senha:</string>
+    <string name="continuar_conectado">Continuar conectado</string>
+    <string name="fazer_login">Fazer login</string>
+</resources>

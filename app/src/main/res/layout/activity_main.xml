@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario"
+        android:id="@+id/txtUsuario"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBaseline="@+id/edtNome"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNome"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/txtUsuario"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/senha"
+        android:id="@+id/txtSenha"
+        android:layout_alignBaseline="@+id/edtSenha"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txtUsuario"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/edtSenha"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/txtSenha"
+        android:layout_below="@+id/edtNome"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/continuar_conectado"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/continuarConectado"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fazer_login"
+        android:onClick="fazerLogin"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"/>
+
+
+</RelativeLayout>
